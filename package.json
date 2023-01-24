@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/IdurarDev/test-htmx/issues"
     },
-    "homepage": "https://github.com/IdurarDev/test-htmx#readme"
+    "homepage": "https://github.com/IdurarDev/test-htmx#readme",
+    "devDependencies": {
+        "typescript": "^4.9.4"
+    }
 }
