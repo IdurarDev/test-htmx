@@ -1,5 +1,5 @@
 import http from "http"
-import { get } from './server/getFunction'
+import { get } from './server/getFunction.js'
 
 const port = 5000;
 
