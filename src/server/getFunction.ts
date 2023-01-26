@@ -16,5 +16,8 @@ export function get(req: http.IncomingMessage, res: http.ServerResponse<http.Inc
             <body>
                 ${content}
             </body>
+            <srcipt src"/public/js/app.js></srcipt>
+        </html>
     `)
+    res.end()
 }
