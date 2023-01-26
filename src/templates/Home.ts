@@ -1,3 +1,3 @@
 export function Home() {
-    return `<h1>Hello the guys</h1>`
+    return `<h1>Assalâm aleikoum wa rahmatullâhi wa barâtuh</h1>`
 }
