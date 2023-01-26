@@ -1,5 +1,5 @@
 import type http from 'http'
-import { routing } from '../routes/Route'
+import { routing } from '../routes/Routes'
 // import { handleFileReauest } from './fileRequest'
 
 export function get(req: http.IncomingMessage, res: http.ServerResponse<http.IncomingMessage>) {
@@ -16,6 +16,5 @@ export function get(req: http.IncomingMessage, res: http.ServerResponse<http.Inc
             <body>
                 ${content}
             </body>
-
     `)
 }
